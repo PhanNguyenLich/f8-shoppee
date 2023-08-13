@@ -310,12 +310,27 @@
                 </g>
               </svg>
             </div>
-            <div class="header__search">
-              <input
-                type="text"
-                class="header__search-input"
-                placeholder="Tìm kiếm sản phẩm"
-              />
+            <div class="header__search">  
+              <div class="header__search-input-wrap">
+                <input
+                  type="text"
+                  class="header__search-input"
+                  placeholder="Tìm kiếm sản phẩm"
+                />
+                <div class="header__search-history">
+                  <h3 class="header__search-history-heading">
+                    Lịch sử tìm kiếm
+                  </h3>
+                  <ul class="header__search-history-list">
+                    <li class="header__search-history-item">
+                      <a href="">Sữa rửa mặt</a>
+                    </li>
+                    <li class="header__search-history-item">
+                      <a href="">Sữa rửa mặt hihi</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <div class="header__search-selection">
                 <span class="header__search-selection-label"> Trong shop </span>
                 <i
@@ -340,8 +355,15 @@
                 ></i>
               </button>
             </div>
+            <!-- Carding -->
             <div class="header__card">
-              <i class="header__card-icon fa-solid fa-cart-shopping"></i>
+              <div class="header__card-wrap">
+                <i class="header__card-icon fa-solid fa-cart-shopping"></i>
+                <div class="header__card-list header__card-list--no--card">
+                  <img src="./assets/img/cart-empty.png" class="header__card-list-no-card-img"></img>
+                  <span class="header__card-list-no-card-msg">Chưa có sản phẩm</span>
+              </div>
+              </div>
             </div>
           </div>
         </div>
