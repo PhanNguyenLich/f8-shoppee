@@ -1,201 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>F8</title>
-    <link
-      rel="shortcut icon"
-      href="./assets/img/favicon.jpg"
-      type="image/x-icon"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/Css/main.css" />
-    <link rel="stylesheet" href="./assets/Css/base.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <div class="app">
-      <header class="header">
-        <div class="grid">
-          <nav class="header__navbar">
-            <ul class="header__navbar-list">
-              <li
-                class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate"
-              >
-                Vào cửa hàng trên ứng dụng TickID
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F8</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/Css/main.css" />
+  <link rel="stylesheet" href="./assets/Css/base.css" />
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css" />
+</head>
 
-                <!-- Header QR Code -->
-                <div class="header__qr">
-                  <img
-                    src="./assets/img/d91264e165ed6facc6178994d5afae79.png"
-                    alt="QR code"
-                    class="header__qr-img"
-                  />
-                  <div class="header__qr-apps">
-                    <a href="" class="header__qr-link">
-                      <img
-                        src="./assets/img/chplay.png"
-                        alt="Google Play"
-                        class="header__qr-download-img"
-                      />
-                    </a>
-                    <a href="" class="header__qr-link">
-                      <img
-                        src="./assets/img/appstore.png"
-                        alt="App Store"
-                        class="header__qr-download-img"
-                      />
-                    </a>
-                  </div>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="grid">
+        <nav class="header__navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+              Vào cửa hàng trên ứng dụng TickID
+
+              <!-- Header QR Code -->
+              <div class="header__qr">
+                <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="QR code" class="header__qr-img" />
+                <div class="header__qr-apps">
+                  <a href="" class="header__qr-link">
+                    <img src="./assets/img/chplay.png" alt="Google Play" class="header__qr-download-img" />
+                  </a>
+                  <a href="" class="header__qr-link">
+                    <img src="./assets/img/appstore.png" alt="App Store" class="header__qr-download-img" />
+                  </a>
                 </div>
-              </li>
-              <li class="header__navbar-item">
-                <span class="header__navbar-title--no-pointer">Kết nối</span>
-                <a href="" class="header__navbar-icon-link">
-                  <i class="header__navbar-icon fa-brands fa-facebook"></i>
-                </a>
-                <a href="" class="header__navbar-icon-link">
-                  <i class="header__navbar-icon fa-brands fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-            <ul class="header__navbar-list">
-              <li class="header__navbar-item header__navbar-item--has-notify">
-                <a href="" class="header__navbar-item-link"
-                  ><i class="header__navbar-icon fa-regular fa-bell"></i>Thông
-                  báo</a
-                >
-                <div class="header__notify">
-                  <header class="header_notify-header">
-                    <h3>Thông báo mới nhận</h3>
-                  </header>
-                  <ul class="header_notify-list">
-                    <li class="header_notify-item header_notify-item--viewed">
-                      <a href="" class="header_notify-link">
-                        <img
-                          src="./assets/img/d91264e165ed6facc6178994d5afae79.png"
-                          alt=""
-                          class="header_notify-img"
-                        />
-                        <div class="header_notify-info">
-                          <span class="header_notify-name"
-                            >Xác thực chính hãng nguồn gốc các sản phẩm
-                            Ohui</span
-                          >
-                          <span class="header_notify-descriotion"
-                            >HiddenTag là giải pháp xác thực hành chính hãng
-                            bằng công nghệ tiên tiến nhất hiện nay</span
-                          >
-                        </div>
-                      </a>
-                    </li>
-                    <li class="header_notify-item header_notify-item--viewed">
-                      <a href="" class="header_notify-link">
-                        <img
-                          src="./assets/img/d91264e165ed6facc6178994d5afae79.png"
-                          alt=""
-                          class="header_notify-img"
-                        />
-                        <div class="header_notify-info">
-                          <span class="header_notify-name"
-                            >Xác thực chính hãng nguồn gốc các sản phẩm
-                            Ohui</span
-                          >
-                          <span class="header_notify-descriotion"
-                            >HiddenTag là giải pháp xác thực hành chính hãng
-                            bằng công nghệ tiên tiến nhất hiện nay</span
-                          >
-                        </div>
-                      </a>
-                    </li>
-                    <li class="header_notify-item">
-                      <a href="" class="header_notify-link">
-                        <img
-                          src="./assets/img/d91264e165ed6facc6178994d5afae79.png"
-                          alt=""
-                          class="header_notify-img"
-                        />
-                        <div class="header_notify-info">
-                          <span class="header_notify-name"
-                            >Xác thực chính hãng nguồn gốc các sản phẩm
-                            Ohui</span
-                          >
-                          <span class="header_notify-descriotion"
-                            >HiddenTag là giải pháp xác thực hành chính hãng
-                            bằng công nghệ tiên tiến nhất hiện nay</span
-                          >
-                        </div>
-                      </a>
-                    </li>
-                    <li class="header_notify-item">
-                      <a href="" class="header_notify-link">
-                        <img
-                          src="./assets/img/d91264e165ed6facc6178994d5afae79.png"
-                          alt=""
-                          class="header_notify-img"
-                        />
-                        <div class="header_notify-info">
-                          <span class="header_notify-name"
-                            >Xác thực chính hãng nguồn gốc các sản phẩm
-                            Ohui</span
-                          >
-                          <span class="header_notify-descriotion"
-                            >HiddenTag là giải pháp xác thực hành chính hãng
-                            bằng công nghệ tiên tiến nhất hiện nay</span
-                          >
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="header__notify-footer">
-                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
-                  </div>
+              </div>
+            </li>
+            <li class="header__navbar-item">
+              <span class="header__navbar-title--no-pointer">Kết nối</span>
+              <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+              </a>
+              <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item--has-notify">
+              <a href="" class="header__navbar-item-link"><i class="header__navbar-icon fa-regular fa-bell"></i>Thông
+                báo</a>
+              <div class="header__notify">
+                <header class="header_notify-header">
+                  <h3>Thông báo mới nhận</h3>
+                </header>
+                <ul class="header_notify-list">
+                  <li class="header_notify-item header_notify-item--viewed">
+                    <a href="" class="header_notify-link">
+                      <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="" class="header_notify-img" />
+                      <div class="header_notify-info">
+                        <span class="header_notify-name">Xác thực chính hãng nguồn gốc các sản phẩm
+                          Ohui</span>
+                        <span class="header_notify-descriotion">HiddenTag là giải pháp xác thực hành chính hãng
+                          bằng công nghệ tiên tiến nhất hiện nay</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="header_notify-item header_notify-item--viewed">
+                    <a href="" class="header_notify-link">
+                      <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="" class="header_notify-img" />
+                      <div class="header_notify-info">
+                        <span class="header_notify-name">Xác thực chính hãng nguồn gốc các sản phẩm
+                          Ohui</span>
+                        <span class="header_notify-descriotion">HiddenTag là giải pháp xác thực hành chính hãng
+                          bằng công nghệ tiên tiến nhất hiện nay</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="header_notify-item">
+                    <a href="" class="header_notify-link">
+                      <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="" class="header_notify-img" />
+                      <div class="header_notify-info">
+                        <span class="header_notify-name">Xác thực chính hãng nguồn gốc các sản phẩm
+                          Ohui</span>
+                        <span class="header_notify-descriotion">HiddenTag là giải pháp xác thực hành chính hãng
+                          bằng công nghệ tiên tiến nhất hiện nay</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="header_notify-item">
+                    <a href="" class="header_notify-link">
+                      <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="" class="header_notify-img" />
+                      <div class="header_notify-info">
+                        <span class="header_notify-name">Xác thực chính hãng nguồn gốc các sản phẩm
+                          Ohui</span>
+                        <span class="header_notify-descriotion">HiddenTag là giải pháp xác thực hành chính hãng
+                          bằng công nghệ tiên tiến nhất hiện nay</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="header__notify-footer">
+                  <a href="" class="header__notify-footer-btn">Xem tất cả</a>
                 </div>
-              </li>
-              <li class="header__navbar-item">
-                <a href="" class="header__navbar-item-link"
-                  ><i
-                    class="header__navbar-icon fa-regular fa-circle-question"
-                  ></i
-                  >Trợ giúp</a
-                >
-              </li>
-              <li
-                class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
-              >
-                Đăng ký
-              </li>
-              <li class="header__navbar-item header__navbar-item--strong">
-                Đăng nhập
-              </li>
-            </ul>
-          </nav>
-          <!-- Header with search -->
-          <div class="header-with-search">
-            <div class="header__logo">
-              <svg viewBox="0 0 192 65" class="header__logo-img">
-                <g fill-rule="evenodd">
-                  <path
-                    fill="#fff"
-                    d="M35.6717403 44.953764c-.3333497 2.7510509-2.0003116
+              </div>
+            </li>
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link"><i
+                  class="header__navbar-icon fa-regular fa-circle-question"></i>Trợ giúp</a>
+            </li>
+            <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+              Đăng ký
+            </li>
+            <li class="header__navbar-item header__navbar-item--strong">
+              Đăng nhập
+            </li> -->
+
+            <li class="header__navbar-item header__navbar-user">
+              <img src="https://www.vietnamfineart.com.vn/wp-content/uploads/2023/03/hinh-anh-co-gai-cute-anime-8-min-4.jpg" alt="" class="header__navbar-user-img">
+              <span class="header__navbar-user-name">Nguyen Lich</span>
+
+              <ul class="header__navbar-user-menu">
+                <li class="header__navbar-user-item">
+                  <a href="">Tài khoản của tôi</a>
+                </li>
+                <li class="header__navbar-user-item">
+                  <a href="">Địa chỉ của tôi</a>
+                </li>
+                <li class="header__navbar-user-item">
+                  <a href="">Đơn mua</a>
+                </li>
+                <li class="header__navbar-user-item">
+                  <a href="">Đăng xuất</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- Header with search -->
+        <div class="header-with-search">
+          <div class="header__logo">
+            <svg viewBox="0 0 192 65" class="header__logo-img">
+              <g fill-rule="evenodd">
+                <path fill="#fff"
+                  d="M35.6717403 44.953764c-.3333497 2.7510509-2.0003116
                     4.9543414-4.5823845
                     6.0575984-1.4379707.6145919-3.36871.9463856-4.896954.8421628-2.3840266-.0911143-4.6237865-.6708937-6.6883352-1.7307424-.7375522-.3788551-1.8370513-1.1352759-2.6813095-1.8437757-.213839-.1790053-.239235-.2937577-.0977428-.4944671.0764015-.1151823.2172535-.3229831.5286218-.7791994.45158-.6616533.5079208-.7446018.5587128-.8221779.14448-.2217688.3792333-.2411091.6107855-.0588804.0243289.0189105.0243289.0189105.0426824.0333083.0379873.0294402.0379873.0294402.1276204.0990653.0907002.0706996.14448.1123887.166248.1287205
                     2.2265285 1.7438508 4.8196989 2.7495466 7.4376251 2.8501162
@@ -305,81 +257,142 @@
                     1.6865902 5.6184225 2.1278667 4.2847814 1.2547527 6.5186944
                     3.5630343 6.0571315 6.2864205-.4192725 2.4743234-3.0117991
                     4.1199394-6.6498372
-                    4.2325647-2.6382344-.0549182-5.2963324-1.0217793-7.6043603-2.7562084-.0115337-.0083664-.0700567-.0519149-.1779185-.1323615-.1516472-.1130543-.1516472-.1130543-.1742875-.1300017-.4705335-.3247898-.7473431-.2977598-1.0346184.1302162-.0346012.0529875-.3919333.5963776-.5681431.8632459"
-                  ></path>
-                </g>
-              </svg>
-            </div>
-            <div class="header__search">  
-              <div class="header__search-input-wrap">
-                <input
-                  type="text"
-                  class="header__search-input"
-                  placeholder="Tìm kiếm sản phẩm"
-                />
-                <div class="header__search-history">
-                  <h3 class="header__search-history-heading">
-                    Lịch sử tìm kiếm
-                  </h3>
-                  <ul class="header__search-history-list">
-                    <li class="header__search-history-item">
-                      <a href="">Sữa rửa mặt</a>
-                    </li>
-                    <li class="header__search-history-item">
-                      <a href="">Sữa rửa mặt hihi</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="header__search-selection">
-                <span class="header__search-selection-label"> Trong shop </span>
-                <i
-                  class="header__search-selection-icon fa-solid fa-chevron-down"
-                ></i>
-                <ul class="header__search-option">
-                  <li
-                    class="header__search-option-item header__search-option-item--active"
-                  >
-                    <span>Trong shop</span>
-                    <i class="fa-solid fa-check"></i>
+                    4.2325647-2.6382344-.0549182-5.2963324-1.0217793-7.6043603-2.7562084-.0115337-.0083664-.0700567-.0519149-.1779185-.1323615-.1516472-.1130543-.1516472-.1130543-.1742875-.1300017-.4705335-.3247898-.7473431-.2977598-1.0346184.1302162-.0346012.0529875-.3919333.5963776-.5681431.8632459">
+                </path>
+              </g>
+            </svg>
+          </div>
+          <div class="header__search">
+            <div class="header__search-input-wrap">
+              <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm" />
+              <div class="header__search-history">
+                <h3 class="header__search-history-heading">
+                  Lịch sử tìm kiếm
+                </h3>
+                <ul class="header__search-history-list">
+                  <li class="header__search-history-item">
+                    <a href="">Sữa rửa mặt</a>
                   </li>
-                  <li class="header__search-option-item">
-                    <span>Ngoài shop</span>
-                    <i class="fa-solid fa-check"></i>
+                  <li class="header__search-history-item">
+                    <a href="">Sữa rửa mặt hihi</a>
                   </li>
                 </ul>
               </div>
-              <button class="header__search-btn">
-                <i
-                  class="header__search-btn-icon fa-solid fa-magnifying-glass"
-                ></i>
-              </button>
             </div>
-            <!-- Carding -->
-            <div class="header__card">
-              <div class="header__card-wrap">
-                <i class="header__card-icon fa-solid fa-cart-shopping"></i>
-                <span class="header__card-notice">3</span>
-                <div class="header__card-list ">
-                  <img src="./assets/img/cart-empty.png" class="header__card-list-no-card-img"></img>
-                  <span class="header__card-list-no-card-msg">Chưa có sản phẩm</span>
+            <div class="header__search-selection">
+              <span class="header__search-selection-label"> Trong shop </span>
+              <i class="header__search-selection-icon fa-solid fa-chevron-down"></i>
+              <ul class="header__search-option">
+                <li class="header__search-option-item header__search-option-item--active">
+                  <span>Trong shop</span>
+                  <i class="fa-solid fa-check"></i>
+                </li>
+                <li class="header__search-option-item">
+                  <span>Ngoài shop</span>
+                  <i class="fa-solid fa-check"></i>
+                </li>
+              </ul>
+            </div>
+            <button class="header__search-btn">
+              <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <!-- Carding -->
+          <div class="header__card">
+            <div class="header__card-wrap">
+              <i class="header__card-icon fa-solid fa-cart-shopping"></i>
+              <span class="header__card-notice">3</span>
+              <div class="header__card-list ">
+                <img src="./assets/img/cart-empty.png" class="header__card-list-no-card-img"></img>
+                <span class="header__card-list-no-card-msg">Chưa có sản phẩm</span>
 
-                  <h4 class="header__card-heading">Sản phẩm đã thêm</h4>
-              </div>
+                <h4 class="header__card-heading">Sản phẩm đã thêm</h4>
+                <ul class="header__card-list-item">
+                  <!-- card -->
+                  <li class="header__card-item">
+                    <img src="https://img.abaha.vn/photos/resized/320x/83-1596776828-myphamohui-lgvina.png" alt=""
+                      class="header__card-img">
+                    <div class="header__card-item-info">
+                      <div class="header__card-item-head">
+                        <h5 class="header__card-item-name">
+                          Bộ kem đặc trị vùng mắt
+                        </h5>
+                        <div class="header__card-item-price-wrap">
+                          <span class="header__card-item-price">2.000.446</span>
+                          <span class="header__card-item-multiply">x</span>
+                          <span class="header__card-item-qnt">3 </span>
+                        </div>
+                      </div>
+                      <div class="header__card-item-body">
+                        <span class="header__card-item-description">
+                          Phân loại: Bạc
+                        </span>
+                        <span class="header__card-item-remove">Xóa</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header__card-item">
+                    <img src="https://img.abaha.vn/photos/resized/320x/83-1596776828-myphamohui-lgvina.png" alt=""
+                      class="header__card-img">
+                    <div class="header__card-item-info">
+                      <div class="header__card-item-head">
+                        <h5 class="header__card-item-name">
+                          Bộ kem đặc trị vùng mắt
+                        </h5>
+                        <div class="header__card-item-price-wrap">
+                          <span class="header__card-item-price">2.000.446</span>
+                          <span class="header__card-item-multiply">x</span>
+                          <span class="header__card-item-qnt">3 </span>
+                        </div>
+                      </div>
+                      <div class="header__card-item-body">
+                        <span class="header__card-item-description">
+                          Phân loại: Bạc
+                        </span>
+                        <span class="header__card-item-remove">Xóa</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header__card-item">
+                    <img src="https://img.abaha.vn/photos/resized/320x/83-1596776828-myphamohui-lgvina.png" alt=""
+                      class="header__card-img">
+                    <div class="header__card-item-info">
+                      <div class="header__card-item-head">
+                        <h5 class="header__card-item-name">
+                          Bộ kem đặc trị vùng mắt
+                        </h5>
+                        <div class="header__card-item-price-wrap">
+                          <span class="header__card-item-price">2.000.446</span>
+                          <span class="header__card-item-multiply">x</span>
+                          <span class="header__card-item-qnt">3 </span>
+                        </div>
+                      </div>
+                      <div class="header__card-item-body">
+                        <span class="header__card-item-description">
+                          Phân loại: Bạc
+                        </span>
+                        <span class="header__card-item-remove">Xóa</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+                <a href="#" class="header__card-view btn btn--primary">Xem giỏ hàng</a>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <div class="container"></div>
-      <footer class="footer"></footer>
-    </div>
-    <!-- Modal Layout -->
-    <!-- <div class="modal">
+      </div>
+    </header>
+    <div class="container"></div>
+    <footer class="footer"></footer>
+  </div>
+  <!-- Modal Layout -->
+  <!-- <div class="modal">
       <div class="modal__overlay"></div>
       <div class="modal__body"> -->
-    <!-- Register form -->
-    <!-- <div class="auth-form">
+  <!-- Register form -->
+  <!-- <div class="auth-form">
           <div class="auth-form__container">
             <div class="auth-form__header">
               <h3 class="auth-form__heading">Đăng ký</h3>
@@ -448,8 +461,8 @@
             </a>
           </div>
         </div> -->
-    <!-- Login form -->
-    <!-- <div class="auth-form">
+  <!-- Login form -->
+  <!-- <div class="auth-form">
           <div class="auth-form__container">
             <div class="auth-form__header">
               <h3 class="auth-form__heading">Đăng nhập</h3>
@@ -515,5 +528,6 @@
         </div>
       </div>
     </div> -->
-  </body>
+</body>
+
 </html>
